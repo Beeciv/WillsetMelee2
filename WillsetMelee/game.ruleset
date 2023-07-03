@@ -18,9 +18,7 @@ name = _("Will ruleset")
 
 ; Summary of the ruleset
 summary = _("\
-You are playing with classic Freeciv ruleset for single player games. \
-Note that in addition to the ruleset, also server settings affect \
-the rules of the game.\
+You are playing with WillsetMelee, a combat-focused variant of the classic Willset. This ruleset is similar to the classic one, though note that cities grow more quickly.\
 ")
 
 ; Detailed description
