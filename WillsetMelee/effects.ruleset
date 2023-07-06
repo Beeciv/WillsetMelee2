@@ -601,7 +601,7 @@ reqs	=
       "Gov", "Communism", "Player"
     }
 
-; Rapture is now MONARCHY ONLY!
+; Rapture is now COMMUNISM ONLY!
 ; This is to buff the government.
 ; Will, 9/25/2022
 [effect_rapture_grow_0]
@@ -609,7 +609,7 @@ type    = "Rapture_Grow"
 value   = 3
 reqs	=
     { "type",       "name",      "range"
-      "Gov", "Monarchy",  "Player"
+      "Gov", "Communism",  "Player"
     }
 
 [effect_internet]
