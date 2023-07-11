@@ -1328,8 +1328,10 @@ upkeep		= 0
 sabotage	= 0
 sound		= "w_great_library"
 sound_alt	= "w_generic"
+; Updated Great Library description
+; Willmo3, 7/11/2023
 helptext	= _("\
-The civilization which builds the Great Library gets a 100% bonus to techs.\
+The civilization which builds the Great Library gets a 100% bonus to science output in all cities with libraries.\
 ")
 
 [building_great_wall]
