@@ -1952,11 +1952,11 @@ reqs	=
     }
 
 ; Nerf great library for huge games.
-; 75% science buff -- still strong, commeasurate w/ length of wonder.
-; Willmo3, 6/3/2023
+; 100% science buff -- still strong, commeasurate w/ length of wonder.
+; Willmo3, 7/11/2023
 [effect_great_library]
 type    = "Output_Bonus"
-value   = 75
+value   = 100
 reqs    =
     { "type", "name", "range"
       "Building", "Library", "City"
