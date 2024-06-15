@@ -11,7 +11,7 @@
 ; than minor changes.
 
 [datafile]
-description="Classic governments data for Freeciv (as Civ2, minus fundamentalism)"
+description="WillsetMelee2 governments data for Freeciv (minus fundamentalism)"
 options="+Freeciv-2.6-ruleset"
 
 [governments]
