@@ -1335,6 +1335,7 @@ The civilization which builds the Great Library gets a 100% bonus to science out
 ")
 
 ; Switch great wall to never be obsoleted.
+; In addition, reduce its cost to 200
 ; Will, 6/15/2024
 [building_great_wall]
 name		= _("Great Wall")
@@ -1348,7 +1349,7 @@ graphic_alt	= "-"
 obsolete_by	=
     { "type", "name", "range", "survives"
     }
-build_cost	= 300
+build_cost	= 200
 upkeep		= 0
 sabotage	= 0
 sound		= "w_great_wall"
