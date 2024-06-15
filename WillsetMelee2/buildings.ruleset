@@ -1310,9 +1310,6 @@ Your reputation and goodwill among other nations is recovered twice\
 ; Great Library switched to be under Republic
 ; Part of plan to make Great Library harder to get.
 ; Will, 7/1/2023
-
-; Great Library switched to be obsoleted by RAILROAD
-; Will, 6/15/2024
 [building_great_library]
 name		= _("Great Library")
 genus		= "GreatWonder"
@@ -1324,7 +1321,7 @@ graphic	= "b.great_library"
 graphic_alt	= "-"
 obsolete_by	=
     { "type", "name", "range", "survives"
-      "Tech", "Railroad", "World", TRUE
+      "Tech", "Electricity", "World", TRUE
     }
 build_cost	= 200
 upkeep		= 0
