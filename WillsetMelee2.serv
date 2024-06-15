@@ -1,6 +1,6 @@
 # Server commands to use WillsetMelee Freeciv rules
 #
 
-rulesetdir WillsetMelee
+rulesetdir WillsetMelee2
 
 # changed game settings are defined in game.ruleset
