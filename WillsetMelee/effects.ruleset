@@ -204,6 +204,9 @@ reqs    =
       "OutputType", "Trade", "Local"
     }
 
+; NOTE: vastly lower output waste by distance is democracy's big win.
+; As your nation becomes bigger, this becomes more important.
+; Will, 6/15/2024
 [effect_corruption_democracy1]
 type    = "Output_Waste_By_Distance"
 value   = 1
@@ -348,6 +351,17 @@ value	= 3
 reqs   =
     { "type", "name", "range"
       "Gov", "Communism", "Player"
+      "OutputType", "Shield", "Local"
+    }
+
+; Switch Republic to get one free unit
+; Will, 6/15/2024
+[effect_upkeep_free_units_republic]
+type    = "Unit_Upkeep_Free_Per_City"
+value	= 1
+reqs   =
+    { "type", "name", "range"
+      "Gov", "Republic", "Player"
       "OutputType", "Shield", "Local"
     }
 
