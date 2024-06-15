@@ -1337,6 +1337,8 @@ helptext	= _("\
 The civilization which builds the Great Library gets a 100% bonus to science output in all cities with libraries.\
 ")
 
+; Switch great wall to never be obsoleted.
+; Will, 6/15/2024
 [building_great_wall]
 name		= _("Great Wall")
 genus		= "GreatWonder"
@@ -1348,7 +1350,6 @@ graphic	= "b.great_wall"
 graphic_alt	= "-"
 obsolete_by	=
     { "type", "name", "range", "survives"
-      "Tech", "Metallurgy", "World", TRUE
     }
 build_cost	= 300
 upkeep		= 0
