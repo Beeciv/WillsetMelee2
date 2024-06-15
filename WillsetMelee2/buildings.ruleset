@@ -1360,7 +1360,7 @@ Works as a City Wall in all your cities.\
 ; Civ2 also doubles attack -vs- barbs,
 ; and enemies are forced to offer cease-fire or peace.
 
-; Hanging gardens switched to be obsoleted by ELECTRONICS
+; Hanging gardens switched to be obsoleted by REFRIGERATION
 ; Will, 6/15/2024
 [building_hanging_gardens]
 name		= _("Hanging Gardens")
@@ -1373,7 +1373,7 @@ graphic	= "b.hanging_gardens"
 graphic_alt	= "-"
 obsolete_by	=
     { "type", "name", "range", "survives"
-      "Tech", "Electronics", "World", TRUE
+      "Tech", "Refrigeration", "World", TRUE
     }
 build_cost	= 200
 upkeep		= 0
