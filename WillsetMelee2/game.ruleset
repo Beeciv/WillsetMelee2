@@ -726,7 +726,6 @@ set =
 	  "rapturedelay", 2
 	  "barbarians", "HORDES"
 	  "onsetbarbs", 80
-	  "fogofwar", "DISABLED"
 	  "airliftingstyle", "FROM_ALLIES|TO_ALLIES"
 	  "endspaceship", "DISABLED"
 	  "allowtake", "HAhadOob"
