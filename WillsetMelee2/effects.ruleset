@@ -204,17 +204,20 @@ reqs    =
       "OutputType", "Trade", "Local"
     }
 
+; Remove democracy trade waste by distance
+; WILL, 8/16/2024
+
 ; NOTE: vastly lower output waste by distance is democracy's big win.
 ; As your nation becomes bigger, this becomes more important.
 ; Will, 6/15/2024
-[effect_corruption_democracy1]
-type    = "Output_Waste_By_Distance"
-value   = 1
-reqs    =
-    { "type", "name", "range"
-      "Gov", "Democracy", "Player"
-      "OutputType", "Trade", "Local"
-    }
+; [effect_corruption_democracy1]
+; type    = "Output_Waste_By_Distance"
+; value   = 1
+; reqs    =
+;     { "type", "name", "range"
+;       "Gov", "Democracy", "Player"
+;       "OutputType", "Trade", "Local"
+;     }
 
 
 [effect_corruption_despotism0]
