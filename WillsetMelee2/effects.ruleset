@@ -259,9 +259,12 @@ reqs	=
       "OutputType", "Trade", "Local"
     }
 
+; Communism corruption UPPED to 30%
+; Will, 8/16/2024
+
 [effect_corruption_communism0]
 type    = "Output_Waste"
-value	= 20
+value	= 30
 reqs	=
     { "type", "name", "range"
       "Gov", "Communism", "Player"
