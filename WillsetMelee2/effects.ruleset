@@ -1057,6 +1057,8 @@ reqs	=
 ;      "Building", "Palace", "City", FALSE
 ;    }
 
+; Note: courthouse makes one unhappy citizen content under democracy.
+; Will, 8/16/2024
 [effect_courthouse_2]
 type    = "Make_Content"
 value	= 1
